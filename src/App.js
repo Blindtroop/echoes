@@ -1,5 +1,6 @@
 import Background from "./Components/background";
 import EchoForm from "./Components/EchoForm";
+import EchoFeed from "./Components/EchoFeed";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1 className="text-5xl font-bold">Echoes</h1>
         <p className="mt-4 text-gray-300">Anonymous voices in the dark</p>
         <EchoForm/>
+        {/* <EchoFeed/> */}
       </div>
       
     </div>
