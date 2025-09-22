@@ -40,10 +40,10 @@ function App() {
     <div className="relative min-h-screen text-white">
       <Background />
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen">
-        <h1 className="font-echoes text-9xl font-bold mt-20">Echoes</h1>
+        <h1 className="font-echoes text-7xl font-bold mt-20 md:text-9xl font-bold mt-20">Echoes</h1>
 
         {/* Typing effect with moving cursor */}
-        <p className="mt-4 text-gray-300 text-3xl font-mono flex items-center">
+        <p className="mt-4 text-gray-300 text-1xl font-mono flex items-center md:text-3xl font-mono flex items-center">
           {displayedText}
           <motion.span
             className="ml-1 font-bold text-white"
