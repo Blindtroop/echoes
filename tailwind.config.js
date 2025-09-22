@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        echoes: ["EchoesFont", "sans-serif"], // ✅ custom font
+      },
       keyframes: {
         bubble: {
           "0%": { transform: "translateY(100vh) scale(0.5)", opacity: "0" },
@@ -13,7 +16,9 @@ module.exports = {
         },
       },
       animation: {
-        bubble: "bubble linear infinite",
+        bubble: "bubble 12s linear infinite", // ✅ default duration
+        "bubble-slow": "bubble 20s linear infinite",
+        "bubble-fast": "bubble 8s linear infinite",
       },
     },
   },
