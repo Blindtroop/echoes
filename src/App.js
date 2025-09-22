@@ -10,7 +10,7 @@ function App() {
         <h1 className="text-5xl font-bold">Echoes</h1>
         <p className="mt-4 text-gray-300">Anonymous voices in the dark</p>
         <EchoForm/>
-        {/* <EchoFeed/> */}
+        <EchoFeed/>
       </div>
       
     </div>
