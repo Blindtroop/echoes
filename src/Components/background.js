@@ -14,15 +14,15 @@ const ParticlesBackground = () => {
       options={{
         background: { color: "#000" },
         particles: {
-          number: { value: 50, density: { enable: true, area: 500 } },
+          number: { value: 100, density: { enable: true, area: 400 } },
           color: { value: "#ffffff" },
-          shape: { type: "square" },
+          shape: { type: "circle" },
           opacity: { value: 0.5 },
-          size: { value: { min: 1, max: 3 } },
+          size: { value: { min: 1, max: 2 } },
           links: {
-            enable: true,
+            enable: false,
             distance: 250,
-            color: "#888",
+            color: "#888888",
             opacity: 0.5,
             width: 1,
           },
@@ -33,7 +33,7 @@ const ParticlesBackground = () => {
             onHover: { enable: true, mode: "repulse" },
             onClick: { enable: true, mode: "push" },
           },
-          modes: { repulse: { distance: 100 }, push: { quantity: 4 } },
+          modes: { repulse: { distance: 50 }, push: { quantity: 1 } },
         },
       }}
     />
