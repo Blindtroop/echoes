@@ -14,7 +14,7 @@ const ParticlesBackground = () => {
       options={{
         background: { color: "#000" },
         particles: {
-          number: { value: 100, density: { enable: true, area: 400 } },
+          number: { value: 50, density: { enable: true, area: 400 } },
           color: { value: "#ffffff" },
           shape: { type: "circle" },
           opacity: { value: 0.5 },
